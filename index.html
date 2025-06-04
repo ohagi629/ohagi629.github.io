@@ -1,17 +1,106 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ohagiのポートフォリオ</title>
+    <style>
+      /* 全体のフォントと背景 */
+      body {
+        font-family: "Yu Gothic", "ヒラギノ角ゴ Pro", Meiryo, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        line-height: 1.6;
+      }
+
+      /* 見出しの色と下線 */
+      h1 {
+        color: #4b6cb7;
+        border-bottom: 3px solid #4b6cb7;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        font-weight: 700;
+        text-align: center;
+      }
+
+      h2 {
+        color: #3a3a3a;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 8px;
+        margin-top: 40px;
+      }
+
+      h3 {
+        color: #4b6cb7;
+        margin-top: 30px;
+      }
+
+      /* リスト装飾 */
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+
+      ul li {
+        margin-bottom: 6px;
+      }
+
+      /* 表のスタイル */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 10px 12px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #4b6cb7;
+        color: #fff;
+        width: 30%;
+      }
+
+      td {
+        background-color: #fff;
+      }
+
+      /* リンクの装飾 */
+      a {
+        color: #4b6cb7;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      a:hover {
+        color: #2a3a8c;
+        text-decoration: underline;
+      }
+
+      /* Contactリストはアイコン風に */
+      ul li a::before {
+        content: "✉️ ";
+        margin-right: 6px;
+      }
+
+      ul li:nth-child(2) a::before {
+        content: "🐦 ";
+      }
+    </style>
   </head>
   <body>
     <h1>ohagi</h1>
-    
+
     <h2>About</h2>
-    <p>
-      ピアノを弾くことが得意です。
-    </p>
+    <p>ピアノを弾くことが得意です。</p>
 
     <h3>Profile</h3>
     <ul>
@@ -41,30 +130,28 @@
     </table>
 
     <h3>Works</h3>
-    
+
     <h3>Contact</h3>
     <p>連絡先や SNS のアカウントを書きましょう。</p>
     <ul>
-      <li><a href="251zs03264@student.zen.ac.jp">Mail</a></li>
+      <li><a href="mailto:251zs03264@student.zen.ac.jp">Mail</a></li>
       <li><a href="https://x.com/ohagi3629?s=21">X(旧 Twitter)</a></li>
     </ul>
 
     <h3>History</h3>
-   <p>学歴、職歴、アルバイト、インターン経験など。</p>
-<table>
-  <tr>
-    <th>2025年</th>
-    <td>ZEN大学 入学</td>
-  </tr>
-  <tr>
-    <th>2023年</th>
-    <td>いわき翠の杜高等学校 卒業</td>
-  </tr>
-  <tr>
-    <th>2020年</th>
-    <td>いわき翠の杜高等学校 入学</td>
-  </tr>
-</table>
+    <p>学歴、職歴、アルバイト、インターン経験など。</p>
+    <table>
+      <tr>
+        <th>2025年</th>
+        <td>ZEN大学 入学</td>
+      </tr>
+      <tr>
+        <th>2023年</th>
+        <td>いわき翠の杜高等学校 卒業</td>
+      </tr>
+      <tr>
+        <th>2020年</th>
+        <td>いわき翠の杜高等学校 入学</td>
       </tr>
     </table>
   </body>
